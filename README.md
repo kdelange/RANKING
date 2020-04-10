@@ -12,6 +12,7 @@ Input: a HTseq count file, filtered by the genes of interest and normalised. Con
 2. Using only the patient with known hematological malignancy, create a decision tree using PCA values. => decisionTree.R
   Using the generated decision tree, predict the dianosis of the novel patients.
 
-3. Plot the relative expression of genes of interst in a boxplot. Make sure to divide patients based on predicted diagnosis. 
-  Espaccialy for EVI1 will only show over expression when grouped with AML patients.
+3. Plot the relative expression of genes of interst in a boxplot. => boxplot.R
+  Make sure to divide patients based on predicted diagnosis. 
+  For example EVI1 will only show over-expression when grouped with AML patients.
 
