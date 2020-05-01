@@ -3,7 +3,7 @@
 
 Based on expression profiling we used machine learning to predict the type of leukemia, called RANKING (expRession profiling for clAssificatioN of leuKemias using modellING).
 
-In order to use RANKING a set of patients with a  haematological malignancy, classified accordingly to current methods, is necessary.
+In order to use RANKING a set of patients with a  hematological malignancy, classified accordingly to current methods, is necessary.
 * HTseq count file, filtered by the genes of interest and normalised.
 * txt file with the known type of leukemia of the patients, and if this is known, the over-expression of relevant genes.  
  
