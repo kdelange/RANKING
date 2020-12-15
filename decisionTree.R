@@ -38,7 +38,7 @@ tree.predictset.expression.data.pca <- predict(tree.trainset.expression.data.pca
 with(total.expression.data.pca[-trainset.expression.data.pca,], table(tree.predictset.expression.data.pca, diagnosis))
 
 ## Pruning and cross validation. 
-cv.trainset.expression.data.pca <- cv.tree(trainset.expression.data.pca, FUN = prune.misclass)
+cv.trainset.expression.data.pca <- cv.tree(tree.trainset.expression.data.pca, FUN = prune.misclass)
 plot(cv.trainset.expression.data.pca)
 
 ## use the number of nodes based on the cross validation
